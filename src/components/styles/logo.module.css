@@ -1,0 +1,22 @@
+.wrapper {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.image {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    max-width: 50px;
+}
+.text {
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+    user-select: none;
+    font-size: 25px;
+    white-space: nowrap;
+    background: -webkit-linear-gradient(#09C6F9, #045DE9);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

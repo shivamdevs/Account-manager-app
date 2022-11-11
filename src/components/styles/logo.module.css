@@ -17,6 +17,7 @@
     font-size: 25px;
     white-space: nowrap;
     background: -webkit-linear-gradient(#09C6F9, #045DE9);;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

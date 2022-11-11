@@ -1,0 +1,32 @@
+.button {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    background-color: transparent;
+    border: 1px solid #009FFD;
+    text-decoration: none;
+    color: #009FFD;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: inherit;
+    border-radius: 6px;
+    transition: .2s ease;
+}
+.button:hover {
+    text-decoration: none;
+}
+.button:not(:disabled):hover {
+    background-color: #009FFD;
+    color: #fff;
+}
+.dark {
+    background-color: #647DEE;
+    color: #fff;
+    border-color: #647DEE;
+}
+.button.dark:not(:disabled):hover {
+    background-color: #7F53AC;
+    border-color: #7F53AC;
+}

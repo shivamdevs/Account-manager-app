@@ -1,0 +1,26 @@
+.footer {
+    display: block;
+    width: -webkit-fill-available;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.flexbox {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.flexbox > div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.flexbox {
+    color: #36096D;
+}
+.flexbox a:not(:hover) {
+    color: #727888;
+}

@@ -9,14 +9,19 @@
     display: flex;
     width: 100%;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+.flexbox > div {
+    white-space: nowrap;
+    margin: 10px auto;
 }
 .flexbox > div:last-child {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    justify-content: center;
+    gap: 10px 20px;
 }
 .flexbox {
     color: #36096D;

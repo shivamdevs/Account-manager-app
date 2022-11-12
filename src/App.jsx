@@ -5,7 +5,9 @@ import Dashboard from './components/Dashboard';
 import Footer from './components/Footer';
 import Welcome from './components/Welcome';
 import Notfound from './components/Notfound';
-import Auth from './components/Auth';
+import Login from "./components/auth/Login";
+import Register from "./components/auth/Register";
+import Recover from "./components/auth/Recover";
 
 function App() {
     const setTitle = (...titles) => {
@@ -17,10 +19,10 @@ function App() {
                 <Header />
                 <div className="app-body">
                     <Routes>
-                        <Route path="/login" element={<Auth setTitle={setTitle} />} />
-                        <Route path="/register" element={<Auth setTitle={setTitle} />} />
-                        <Route path="/recover" element={<Auth setTitle={setTitle} />} />
-                        <Route path="/dashboard" element={<Dashboard setTitle={setTitle} />} />
+                        <Route path="/login" element={<Login setTitle={setTitle} />} />
+                        <Route path="/register" element={<Register setTitle={setTitle} />} />
+                        <Route path="/recover" element={<Recover setTitle={setTitle} />} />
+                        <Route path="/dashboard/*" element={<Dashboard setTitle={setTitle} />} />
                         <Route exact path="/" element={<Welcome setTitle={setTitle} />} />
                         <Route path="*" element={<Notfound setTitle={setTitle} />} />
                     </Routes>

@@ -1,10 +1,73 @@
 .auth {
     display: flex;
     flex: 1;
+    width: 100%;
+    min-height: 100%;
     flex-wrap: nowrap;
 }
 @media screen and (max-width: 768px) {
     .auth {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex: 1;
+    padding: 20px;
+}
+.image {
+    width: 100%;
+    max-width: 400px;
+    margin-block: 1em;
+}
+.title {
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    color: #4262ee;
+    font-weight: 700;
+    margin-block: 1em;
+}
+.comment {
+    color: #545454;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-block: 1em;
+    width: 100%;
+}
+.form {
+    width: 100%;
+    max-width: 400px;
+}
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-block: 1em;
+    width: 100%;
+}
+.group > label {
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 4px;
+}
+.group > input {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #727888;
+    background-color: #fff;
+    color: #000;
+    transition: .2s ease;
+}
+.group > input:focus {
+    border-color: #4262ee;
+    box-shadow: 0 0 0 2px #4262ee;
 }

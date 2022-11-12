@@ -29,7 +29,7 @@ function Dashboard(props) {
 }
 
 function Auth(props) {
-    return (<>Nothing</>);
+    return (<></>);
 }
 
 function Home(props) {

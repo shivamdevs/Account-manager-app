@@ -12,6 +12,7 @@
 }
 .text {
     font-weight: 700;
+    text-decoration: none !important;
     font-family: 'Oxygen', sans-serif;
     user-select: none;
     font-size: 25px;
@@ -20,4 +21,9 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width: 550px) {
+    .text {
+        display: none;
+    }
 }

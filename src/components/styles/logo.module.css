@@ -1,6 +1,7 @@
 .wrapper {
     display: inline-flex;
     flex-wrap: nowrap;
+    text-decoration: none !important;
     align-items: center;
 }
 .image {
@@ -12,7 +13,6 @@
 }
 .text {
     font-weight: 700;
-    text-decoration: none !important;
     font-family: 'Oxygen', sans-serif;
     user-select: none;
     font-size: 25px;

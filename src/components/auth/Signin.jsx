@@ -1,7 +1,7 @@
 import css from './../styles/auth.module.css';
 
 function Signin(props) {
-    props.setTitle("Sign in")
+    props.setTitle("Sign in");
     return (
         <div className={css.auth}>
             <div className={css.container}>

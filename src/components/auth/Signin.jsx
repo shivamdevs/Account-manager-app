@@ -1,6 +1,7 @@
 import css from './../styles/auth.module.css';
 
-function Login(props) {
+function Signin(props) {
+    props.setTitle("Sign in")
     return (
         <div className={css.auth}>
             <div className={css.container}>
@@ -26,4 +27,4 @@ function Login(props) {
         </div>
     );
 }
-export default Login;
+export default Signin;

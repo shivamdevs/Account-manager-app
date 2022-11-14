@@ -11,7 +11,7 @@ import Recover from "./components/auth/Recover";
 
 function App() {
     const setTitle = (...titles) => {
-        document.title = titles.length ? titles.join(" • ") + " • Task Manager" : "Task Manager";
+        document.title = titles.length ? titles.join(" • ") + " • Account Manager" : "Account Manager";
     };
     return (
         <Router>

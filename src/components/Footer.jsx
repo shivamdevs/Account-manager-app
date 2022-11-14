@@ -5,7 +5,9 @@ function Footer(props) {
     return (
         <div className={css.footer}>
             <div className={css.flexbox}>
-                <div>© Shivam Devs 2022</div>
+                <div>
+                    <Link to="//github.com/shivamdevs" target="_blank">© Shivam Devs 2022</Link>
+                </div>
                 <div>
                     <Link to="/about">About</Link>
                     <Link to="/docs">Documentation</Link>

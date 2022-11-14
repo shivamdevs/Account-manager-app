@@ -29,7 +29,11 @@ function Dashboard(props) {
 }
 
 function Auth(props) {
-    return (<></>);
+    return (
+        <div className={css.btns}>
+            <Button to="/" style={{fontSize: '18px'}} theme="dark">Return to Home</Button>
+        </div>
+    );
 }
 
 function Home(props) {

@@ -3,7 +3,7 @@
     width: -webkit-fill-available;
     padding: 10px;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
 }
 .flexbox {
     display: flex;
@@ -15,7 +15,7 @@
 }
 .flexbox > div {
     white-space: nowrap;
-    margin: 10px auto;
+    margin: 10px 0;
 }
 .flexbox > div:last-child {
     display: flex;
@@ -23,7 +23,7 @@
     justify-content: center;
     gap: 10px 20px;
 }
-.flexbox {
+.flexbox > div:first-child > a:not(:hover) {
     color: #36096D;
 }
 .flexbox a:not(:hover) {
